@@ -52,3 +52,7 @@ def tri_recursion(k):
     return result
 print("\n\nRecursion example Results")
 tri_recursion(6)
+
+my_tuple = (1,2,3)
+tuple_hash = hash(my_tuple)
+print(f"The hash value of the tuple{my_tuple} is {tuple_hash}")
